@@ -29,6 +29,7 @@ public class TransferFrame extends javax.swing.JFrame {
     
     public TransferFrame() {
         initComponents();
+        setLocationRelativeTo(null);
     }
     private int deptNo;
     public TransferFrame(int accNo){

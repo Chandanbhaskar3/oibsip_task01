@@ -27,6 +27,7 @@ public class DepositeFrame extends javax.swing.JFrame {
 //    private AccountPojo ap;
     public DepositeFrame() {
         initComponents();
+        setLocationRelativeTo(null);
     }
     private int DepNo;
 
@@ -102,7 +103,7 @@ public class DepositeFrame extends javax.swing.JFrame {
         jLabel4.setText("Account No:");
         jPanel2.add(jLabel4, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 110, 130, 20));
 
-        jLabel2.setIcon(new javax.swing.ImageIcon("C:\\Users\\ck835\\OneDrive\\Desktop\\atmimage.png")); // NOI18N
+        jLabel2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/ImagesAtm/atmimage.png"))); // NOI18N
         jPanel2.add(jLabel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 60, 820, 510));
 
         jLabel3.setFont(new java.awt.Font("Verdana", 1, 24)); // NOI18N

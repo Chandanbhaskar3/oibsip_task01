@@ -17,6 +17,7 @@ public class MiniStatementFrame extends javax.swing.JFrame {
 
     public MiniStatementFrame() {
         initComponents();
+        setLocationRelativeTo(null);
 
     }
     private int deptNo;

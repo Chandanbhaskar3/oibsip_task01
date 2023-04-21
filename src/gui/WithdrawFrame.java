@@ -19,6 +19,7 @@ public class WithdrawFrame extends javax.swing.JFrame {
 
     public WithdrawFrame() {
         initComponents();
+        setLocationRelativeTo(null);
 
     }
     private int DepNo;
